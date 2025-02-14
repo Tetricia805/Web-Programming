@@ -1,0 +1,127 @@
+/*General Styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 36px;
+    color: #ff6600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Introduction Section */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    background: #ffe6cc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Picture */
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Video Styling */
+video {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #ffe6cc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background: #ff6600;
+    color: white;
+}
+tr:nth-child(even) {
+    background: #ffdab3;
+}
+
+/* Buttons */
+button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #cc5200;
+}
+
+/* Links */
+a {
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #cc5200;
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-info {
+    background: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+    p, h1, h2 {
+        text-align: center;
+    }
+}
